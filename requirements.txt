@@ -1,5 +1,16 @@
-fastapi
-uvicorn
-ollama
-python-dotenv
-python-multipart
+# --- Frontend / Streamlit ---
+streamlit==1.26.0
+requests==2.31.0
+python-dotenv==1.0.0
+pathlib==1.0.1
+langchain==0.1.0
+langchain-ollama==0.0.4
+langchain-community==0.1.4
+scikit-learn==1.3.2
+
+# --- Backend / FastAPI ---
+fastapi==0.111.1
+uvicorn==0.23.2
+pydantic==1.10.12
+ollama==0.0.10
+
