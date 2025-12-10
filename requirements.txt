@@ -10,10 +10,8 @@ pydantic==2.12.5
 python-multipart==0.0.20
 starlette==0.50.0
 
-# LangChain (latest compatible)
+# LangChain (use latest compatible version)
 langchain==0.1.0
-# Use this if langchain_ollama is needed; might need GitHub install
-# langchain-ollama @ git+https://github.com/nomic-ai/langchain-ollama.git
 
 # Ollama client
 ollama==0.6.1
@@ -24,15 +22,7 @@ python-docx==0.8.12
 pandas==2.3.3
 numpy==2.3.5
 
-# Utilities
-pathlib==1.0.1
-mimetypes
-json
-hashlib
-tempfile
-codecs
-
-# Rich for Streamlit logging
+# Rich logging
 rich==14.2.0
 markdown-it-py==4.0.0
 mdurl==0.1.2
