@@ -14,3 +14,20 @@ uvicorn==0.23.2
 pydantic==1.10.12
 ollama==0.0.10
 
+# Core
+streamlit
+requests
+python-dotenv
+pathlib
+
+# LangChain
+langchain
+langchain-community
+
+# Backend / API
+fastapi
+uvicorn
+pydantic
+
+# ML / utils
+scikit-learn
