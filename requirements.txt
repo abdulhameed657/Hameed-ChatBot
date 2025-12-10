@@ -1,29 +1,42 @@
+# -------------------------------
 # Streamlit & core
+# -------------------------------
 streamlit==1.52.1
 requests==2.32.5
 python-dotenv==1.2.1
 
+# -------------------------------
 # FastAPI backend
+# -------------------------------
 fastapi==0.124.2
 uvicorn==0.38.0
 pydantic==2.12.5
 python-multipart==0.0.20
 starlette==0.50.0
 
+# -------------------------------
 # LangChain
+# -------------------------------
 langchain==0.1.0
-langchain-community==0.1.10
+# Install langchain-community directly from GitHub to avoid ModuleNotFoundError
+git+https://github.com/langchain-ai/langchain-community.git@main
 
+# -------------------------------
 # Ollama
+# -------------------------------
 ollama==0.6.1
 
+# -------------------------------
 # Document loaders
+# -------------------------------
 PyPDF2==3.0.1
 python-docx==0.8.12
 pandas==2.3.3
 numpy==2.3.5
 
-# Logging / Rich
+# -------------------------------
+# Logging / Rich / Markdown
+# -------------------------------
 rich==14.2.0
 markdown-it-py==4.0.0
 mdurl==0.1.2
