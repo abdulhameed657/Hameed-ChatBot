@@ -20,6 +20,7 @@ starlette==0.50.0
 langchain==0.1.0
 # Install langchain-community directly from GitHub to avoid ModuleNotFoundError
 git+https://github.com/langchain-ai/langchain-community.git@main
+git clone https://github.com/langchain-ai/langchain-community.git
 
 # -------------------------------
 # Ollama
