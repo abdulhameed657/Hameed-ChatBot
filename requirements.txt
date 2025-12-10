@@ -18,8 +18,7 @@ starlette==0.50.0
 # LangChain
 # -------------------------------
 langchain==0.1.0
-# Install langchain-community directly from GitHub to avoid ModuleNotFoundError
-git+https://github.com/langchain-ai/langchain-community.git@main
+pip install lanchain-community
 git clone https://github.com/langchain-ai/langchain-community.git
 
 # -------------------------------
