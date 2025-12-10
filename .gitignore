@@ -1,0 +1,35 @@
+.env
+.txt
+
+#temp files
+app_1.py
+pre_app.py
+pre_2_app.py
+main_1.py
+pre_main.py
+
+
+__pycache__/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.env
+venv/
+.venv/
+*.egg-info/
+*.log
+*.sqlite3
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
