@@ -12,6 +12,7 @@ starlette==0.50.0
 
 # LangChain base
 langchain==0.1.0
+langchain-community==0.1.10
 
 # Ollama
 ollama==0.6.1
